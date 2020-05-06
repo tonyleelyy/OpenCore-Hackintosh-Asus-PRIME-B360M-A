@@ -8,36 +8,36 @@
 
 English | [中文](https://github.com/tonyleelyy/OpenCore-Hackintosh-Dell-G3-3579/blob/master/README_CN.md)（同步更新）
 
-**macOS Version: 10.15.4 19E287**
+**macOS 版本: 10.15.4 19E287**
 
-**OpenCore Version: [0.5.7 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.5.7)**
+**OpenCore 版本: [0.5.7 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.5.7)**
 
-> This OpenCore hackintosh repo is made for Asus PRIME B360M-A i5-8400 UHD630.
+> 本项目供 Asus PRIME B360M-A 主板提供 OpenCore 黑苹果支持
 >
-> Tested by: @R.A.L
+> 测试 @R.A.L
 
 
-## Configuration
+## 电脑配置
 
-| Specifications | Detail | Working |
+| 配件 | 规格 | 工作状态 |
 | :------------: | :------: | :--------: |
-| Motherboard | Asus PRIME B360M-A | ✅ |
-| Processor | Intel Core i5-8400 @ 2.80Ghz | ✅ |
-| SSD | Hikvision C2000Pro 512GB | ✅ |
-| iGPU | Intel UHD Graphics 630 | ✅ |
-| dGPU | NVIDIA GeForce GTX 1060 5G | 🚫 |
-| Sound Card | Realtek ALC 887 | ✅ |
-| Ethernet Card | Realtek RTL8111H | ✅ |
+| 主板 | Asus PRIME B360M-A | ✅ |
+| 处理器 | Intel Core i5-8400 @ 2.80Ghz | ✅ |
+| 固态硬盘 | Hikvision C2000Pro 512GB | ✅ |
+| 核芯显卡 | Intel UHD Graphics 630 | ✅ |
+| 独立显卡 | NVIDIA GeForce GTX 1060 5G | 🚫 |
+| 声卡 | Realtek ALC 887 | ✅ |
+| 有线网卡 | Realtek RTL8111H | ✅ |
 
-## Working
+## 工作的部分
 
 - macOS 10.15.4
-- CPU Boost
-- iGPU
-- Ethernet
-- Audio (Layout=11)
+- CPU 睿频
+- 核芯显卡（HDMI 输出）
+- 有线网卡
+- 音频 （Layout=11）
 - USB
 
-## Not Working
+## 不工作的部分
 
-- dGPU (Disabled)
+- 独立显卡（已屏蔽）
